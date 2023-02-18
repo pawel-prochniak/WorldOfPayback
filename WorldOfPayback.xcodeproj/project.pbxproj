@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF0A180329A0D16400B3080D /* Remote */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Remote; sourceTree = "<group>"; };
 		BF605A4729993B55005F174E /* Transactions */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Transactions; sourceTree = "<group>"; };
 		BFB632F62997944F00A42B05 /* WorldOfPayback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldOfPayback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB632F92997944F00A42B05 /* WorldOfPaybackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldOfPaybackApp.swift; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		BFB633102997945100A42B05 /* WorldOfPaybackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldOfPaybackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB633142997945100A42B05 /* WorldOfPaybackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldOfPaybackUITests.swift; sourceTree = "<group>"; };
 		BFB633162997945100A42B05 /* WorldOfPaybackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldOfPaybackUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		BFB633262997990800A42B05 /* Remote */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Remote; path = ../Remote; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +93,8 @@
 		BFB632ED2997944F00A42B05 = {
 			isa = PBXGroup;
 			children = (
+				BF0A180329A0D16400B3080D /* Remote */,
 				BF605A4629993B4E005F174E /* Features */,
-				BFB633262997990800A42B05 /* Remote */,
 				BFB632F82997944F00A42B05 /* WorldOfPayback */,
 				BFB633092997945100A42B05 /* WorldOfPaybackTests */,
 				BFB633132997945100A42B05 /* WorldOfPaybackUITests */,
